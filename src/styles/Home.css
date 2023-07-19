@@ -1,0 +1,30 @@
+h2 {
+  margin: 1rem 0;
+}
+
+.webLink {
+  text-decoration: none;
+  margin-right: 20px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+  background-color: white;
+  box-shadow: 2px 1px grey;
+  font-weight: bold;
+}
+.webLink:hover {
+  background-color: #ccc;
+  transition: 0.7s;
+}
+.infoBox {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 2rem;
+  margin-top: 20rem;
+  width: 350px;
+}
+.linkContainer {
+  display: flex;
+  justify-content: center;
+}

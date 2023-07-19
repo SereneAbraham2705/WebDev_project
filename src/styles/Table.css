@@ -1,0 +1,50 @@
+.tablePg {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.tableH {
+  margin: 1rem 0;
+  font-size: 24px;
+  color: black;
+}
+.medalTable {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+}
+.tableData {
+  width: 100%;
+  border-collapse: collapse;
+}
+.tableData th {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-weight: bold;
+}
+.tableData td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.tableData tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.tableData th,
+.tableData td {
+  font-size: 14px;
+  color: #333;
+}
+@media (max-width: 600px) {
+  .medalTable {
+    max-width: 90%;
+  }
+}
